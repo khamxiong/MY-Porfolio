@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Porfolio Using HML CSS and JS</title>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/92ccc073ea.js" crossorigin="anonymous"></script>
+    <!-- custom style  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="user">
+            <img src="img/Me.jpg" alt="">
+            <h3 class="name">kham xiong</h3>
+            <p class="post">front end web developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#project">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu">
+        <div class="logo">
+            <a href="#"><span>A</span>Dev</a>
+        </div>
+        <div class="left">
+            <div class="toggle-bars">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="fas fa-moon" id="them-btn"></div>
+            <div class="fas fa-palette" id="color-btn"></div>
+        </div>
+        <div class="colors">
+            <h3>Choos color</h3>
+            <div class="color" style="background:#2980b9;"></div>
+            <div class="color" style="background:#27ae60;"></div>
+            <div class="color" style="background:#ec1839;"></div>
+            <div class="color" style="background:#FF00FF;"></div>
+            <div class="color" style="background:#FF1493;"></div>
+            <div class="color" style="background:#0fb9b1;"></div>
+            <div class="color" style="background:#e84393;"></div>
+            <div class="color" style="background:#FFA500;"></div>
+            <div class="color" style="background:#581cd2;"></div>
+        </div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="left">
+            <h3 class="hello">
+                Hello, My name is <span class="my-name">Khamxiong</span>
+            </h3>
+            <h3 class="profession">
+                I'm a<span class="typing">Web Designer</span>
+            </h3>
+            <p>
+                I'm a wed designer with extensive experience for over 10 years . My
+                expertise is to create and website design, and many more....
+            </p>
+            <a href="#" class="btn hire-me">Hire Me</a>
+        </div>
+        <div class="right">
+            <div class="box">
+               <img src="img/Dev-carton.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="title">About Me</h1>
+        <div class="about-top">
+            <h3 class="top">I'm kham and <span>web Desginer</span></h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                aspernatur quis fugiat perspiciatis quae corrupti ad. Cum, est.
+                Impedit enim blanditiis alias ipsam ipsa aperiam itaque recusandae
+                dignissimos est dolorem! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quam dicta voluptas deserunt eius nam consequuntur,
+                sequi dolorum! Accusamus, id blanditiis.
+            </p>
+        </div>
+        <div class="about-row">
+            <div class="row-left">
+                <ul class="box">
+                    <li>
+                        <span>Birthday:</span>
+                        <p>2 jum 202202</p>
+                    </li>
+                    <li>
+                        <span>Website:</span>
+                        <p>www.Adev.com.la</p>
+                    </li>
+                    <li>
+                        <span>Degree:</span>
+                        <p>Conmuter Science</p>
+                    </li>
+                </ul>
+                <ul class="box">
+                    <li>
+                        <span>Email:</span>
+                        <p>kham@gmail.com</p>
+                    </li>
+                    <li>
+                        <span>Phone:</span>
+                        <p>20 78812645</p>
+                    </li>
+                    <li>
+                        <span>Freelandcer:</span>
+                        <p>Availiable</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-right">
+                <ul class="skills">
+                    <li><span>HTML</span> <span>50%</span></li>
+                    <li><span>CSS</span> <span>60%</span></li>
+                    <li><span>JS</span> <span>40%</span></li>
+                    <li><span>Boostrap</span> <span>30%</span></li>
+                    <li><span>React js</span> <span>50%</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="about-buttom">
+            <a href="#" class="btn cv"> Download CV </a>
+        </div>
+    </section>
+    <!-- Education  -->
+    <section class="education" id="education">
+        <h1 class="title">My Education</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2017</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>front end development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    quos alias praesentium. Id autem provident laborum quae, distinctio
+                    eaque temporibus!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h3 class="title">Projects</h3>
+        <div class="pro-container">
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-1.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-2.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-3.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-4.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-5.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-6.jpg" alt="">
+                    <div class="overlay">
+                        <a href="#" class="demo">Demo</a>
+                        <a href="#" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Blog website </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptas!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="title">Contact</h3>
+        <div class="con-container">
+            <div class="left">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5333331.405094722!2d101.7295364731206!3d18.174866265511323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31149057b0824589%3A0xec592481f99cd81!2sLaos!5e0!3m2!1sen!2sla!4v1672826885284!5m2!1sen!2sla"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right">
+                <form action="">
+                    <input type="text" placeholder="Name" id="name" required>
+                    <input type="email" placeholder="xxx@gmail.com" id="email" required>
+                    <input type="number" placeholder="Phone" id="number" required>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send" class="btn submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="f-container">
+            <div class="box">
+                <h3>Follow Me</h3>
+                <ul class="links">
+                    <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i>Tiktok</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i>Github</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <ul class="links">
+                    <li><a href="#home"><i class="fas fa-home"></i>home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i>about</a></li>
+                    <li><a href="#education"><i class="fas fa-graduation-cap"></i>education</a></li>
+                    <li><a href="#project"><i class="fas fa-list-ul"></i>project</a></li>
+                    <li><a href="#contact"><i class="fas fa-comments"></i>contact</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <ul class="links">
+                    <li><a href=""><i class="fas fa-envelope"></i> Khamxiongvaxa@gmail.com</a></li>
+                    <li><a href=""><i class="fas fa-phone" id="rotate"></i> +856-2078812642</a></li>
+                    <li><a href=""><i class="fas fa-phone" id="rotate"></i> +856-2098417645</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i> Vientaine,laos</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="f-bottom">
+            <h3><span> &copy; copyright:</span> khamxiong Vaxa <span>2023-2024</span></h3>
+        </div>
+
+    </footer>
+
+     <!-- load section for web -->
+     <div class="loader-container">
+        <!-- <h2>loading...</h2> -->
+        <img src="img/Loading_icon.gif">
+    </div>
+    <!-- send message to gmail by using  Emailjs-->
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("dsddsfdsferfe");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
